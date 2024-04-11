@@ -53,7 +53,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Controls\OutbackAdventureFormView.xaml">
+	  <Compile Update="Controls\Page UI\MainPageHeader.xaml.cs">
+	    <DependentUpon>MainPageHeader.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Controls\General\AdvImgBtn.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Controls\Page UI\MainPageHeader.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Controls\General\OutbackAdventureButton.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Controls\AdvUI\OutbackAdventureFormView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T_Zoo_OB_Spect.Controls.AdvImgBtn">
+    <VerticalStackLayout>
+        <!--OVERWRITE OR OVERLOAD THE DEFAULT IMG BTN LOGIC-->
+        <ImageButton Source="dotnet_bot.png" 
+                     MaximumHeightRequest="100" 
+                     MaximumWidthRequest="100"></ImageButton>
+    </VerticalStackLayout>
+</ContentView>

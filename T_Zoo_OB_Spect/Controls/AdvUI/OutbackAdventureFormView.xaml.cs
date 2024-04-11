@@ -14,6 +14,7 @@ public partial class OutbackAdventureFormView : ContentView
         // Get user input from Entry controls
         string name = NameEntry.Text;
         string email = EmailEntry.Text;
+        //Validate name and email ?
 
         // Validate and parse the number of participants
         if (int.TryParse(ParticipantsEntry.Text, out int participants))
