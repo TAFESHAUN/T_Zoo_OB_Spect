@@ -2,11 +2,14 @@ namespace T_Zoo_OB_Spect.Controls;
 
 public partial class OutbackAdventureFormView : ContentView
 {
+    //This is our custome event that will add value to for form submit
     public event EventHandler<FormSubmitEventArgs> OnFormSubmit;
 
     public OutbackAdventureFormView()
     {
         InitializeComponent();
+
+        //Pre-set values -> DB OR WEB API populate OR Obj via datainjection 
     }
 
     private void OnSubmitClicked(object sender, EventArgs e)
@@ -33,9 +36,10 @@ public partial class OutbackAdventureFormView : ContentView
     }
 }
 
+//ALL GENERIC FORM SUBMIT DATA
 public class FormSubmitEventArgs : EventArgs
 {
-    public string Name { get; }
+    public string Name { get; } //Read Only
     public string Email { get; }
     public int Participants { get; }
 
@@ -47,3 +51,4 @@ public class FormSubmitEventArgs : EventArgs
     }
 
 }
+

@@ -18,8 +18,9 @@
         <!--CUSTOM FORM-->
         <StackLayout>
             <CUIX:MainPageHeader/>
-            <CUIX:OutbackAdventureButton/>
+            <!--<CUIX:OutbackAdventureButton/>-->
             <CUIX:OutbackAdventureFormView x:Name="AdventureForm" OnFormSubmit="OnFormSubmitInMainPage"/>
+            <CUIX:Footer />
         </StackLayout>
     </Grid>
 
